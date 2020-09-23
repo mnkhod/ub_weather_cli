@@ -7,7 +7,8 @@ const boxen = require('boxen');
 const chalk = require('chalk');
 
 const ubCityId = "2028461";
-const url = `https://api.openweathermap.org/data/2.5/weather?id=${ubCityId}&appid=${process.env.WEATHERAPI}&units=metric`;
+const WEATHERAPI = "YOUR_API_KEY";
+const url = `https://api.openweathermap.org/data/2.5/weather?id=${ubCityId}&appid=${WEATHERAPI}&units=metric`;
 
 const boxenSuccessOption = {
   borderColor: "green",
