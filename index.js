@@ -6,7 +6,7 @@ const boxen = require('boxen');
 const chalk = require('chalk');
 
 const ubCityId = "2028461";
-const WEATHERAPI = "YOUR_API_KEY";
+const WEATHERAPI = "9331f1e7e1dc54a14acc6f953bc6b964";
 const url = `https://api.openweathermap.org/data/2.5/weather?id=${ubCityId}&appid=${WEATHERAPI}&units=metric`;
 
 const boxenSuccessOption = {
